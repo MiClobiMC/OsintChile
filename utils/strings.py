@@ -11,5 +11,3 @@ def right(s, amount):
 
 def mid(s, offset, amount):
     return s[offset:offset+amount]
-
-#no se que error
