@@ -1,4 +1,5 @@
 import argparse
+import sources.nombrerutyfirma as nrf
 import sources.salud as salud
 import sources.edadrut as edadrut
 import sources.texto as texto
@@ -19,5 +20,6 @@ if parametros.rut:
     texto.busqueda(rut = parametros.rut)
     salud.busqueda(rut = parametros.rut)
     edadrut.busqueda(rut = parametros.rut)
+    nrf.busqueda(rut = parametros.rut )
     sii.busqueda(rut = parametros.rut)
     volanteomaleta.busqueda(rut = parametros.rut)
