@@ -9,5 +9,3 @@ def formatRut(rut):
     dv = rut.split('-')[1]
 
     return str(int(strings.left(strings.right(cuerpo,9),3))) + '.' + strings.left(strings.right(cuerpo,6),3) + '.' + strings.right(cuerpo,3) + '-' + dv
-
-#no se que error da
