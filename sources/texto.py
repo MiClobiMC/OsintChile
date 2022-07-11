@@ -9,6 +9,6 @@ def busqueda(rut):
 def busquedaPacienteUC(rut):
 
     print ("")
-    print ("Doxing Chile creado por serohacker")
+    print ("")
     print ("")
     print ("Informacion del rut " + rut)
